@@ -1,0 +1,250 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Bruno Ace SC', cursive;
+  line-height: 1.5;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a{
+  text-decoration: none;
+  display: block;
+}
+
+h2{
+  font-size: 64px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.text-white{
+  color: #FFFFFF;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.fxd-c{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.ai-c{
+  align-items: center;
+}
+
+.as-fe{
+  align-self: flex-end;
+}
+
+.as-fs{
+  align-self: flex-start;
+}
+
+.mr-4{
+  margin-right: 4px;
+}
+
+.mr-13{
+  margin-right: 13px;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.mr-24{
+  margin-right: 24px;
+}
+
+.ml-24{
+  margin-left: 24px;
+}
+
+.ml-4{
+  margin-left: 4px;
+}
+
+.mb-16{
+  margin-bottom: 16px;
+}
+
+.mb-24{
+  margin-bottom: 24px;
+}
+
+.mb-28{
+  margin-bottom: 28px;
+}
+
+.mb-36{
+  margin-bottom: 36px;
+}
+
+.pt-24{
+  padding-top: 24px;
+}
+
+.p-72{
+  padding: 72px 0;
+}
+
+.container{
+  width: 1296px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #000;
+}
+
+.nav a{
+  color: #D1D1D1;
+}
+
+.nav a:hover{
+  color: #00FFA3;
+}
+
+.banner-text{
+  width: 636px;
+  flex-direction: column;
+}
+
+.banner-text h2{
+  color: #FFFFFF;
+  font-size: 64px;
+}
+
+.banner-text h1{
+  color: #00FFA3;
+  font-size: 128px;
+}
+
+.btn{
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+main{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-repeat: no-repeat;
+  padding: 160px 0;
+}
+
+.intro-text{
+  width:526px;
+}
+
+.intro-text h2{
+  color: #FFFFFF;
+}
+
+
+.intro-text p{
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+.intro-img{
+  width: 746px;
+}
+
+.about{
+  padding: 160px 0;
+}
+
+.about-box{
+  width: 636px;
+}
+
+.about-card{
+  border: solid 1px #E3E3E3;
+  padding: 16px;
+  width: calc(50% - 12px);
+}
+
+.about-me{
+  width: 526px;
+}
+
+.contact{
+/*  background:linear-gradient(方向, 顏色1 位置, 顏色2 位置);預設從上往下 進行漸層 */
+  background:linear-gradient( #050014,#01021E);
+  padding: 96px 0;
+}
+
+.arrow-white-100{
+  width: 100px;
+  height: 100px;
+}
+
+.icon{
+  /* object-fit: cover; 讓圖維持設定好的寬高，並且圖片會自動裁切掉邊緣，防止圖片被壓縮變形 */
+  object-fit: cover;
+  border-radius: 40px;
+  width: 162px;
+  height: 162px;
+}
+
+.of-f{
+  object-fit: fill;
+}
+
+.icon:hover{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+  border-radius: 40px;
+}
+
+.project{
+  padding: 160px 0;
+}
+
+.project-text{
+  width: 746px;
+  margin-left: auto;
+}
+
+.more{
+  padding: 12px 24px;
+  background: #000;
+  border-radius: 32px;
+}
+
+.arrow-white-24{
+  width: 24px;
+  height: 24px;
+}
+
+footer{
+  background: #000;
+  text-align: center;
+  padding: 40px 0;
+}
